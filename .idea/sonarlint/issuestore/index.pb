@@ -13,3 +13,11 @@ d
 .src/main/java/com/majoolwip/fastmath/Defs.java,8/6/86938bfd6789b6d16fd8ec5f0e81327d5edbada4
 _
 /src/main/java/com/majoolwip/fastmath/Vec4f.java,b/1/b105c4fcdc0851a5abe0a34d2788bf29ba8ed9a6
+T
+$.idea/codeStyles/codeStyleConfig.xml,d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba
+U
+%src/test/java/mathtests/Vec2Test.java,1/9/19eb1d0f704a7707698dfca8959cf0f7f7cc9b7f
+B
+MajMathLibrary.iml,0/e/0effc088c425690ceb53359ff70baaa926956c2a
+a
+1src/main/java/com/majoolwip/fastmath/MajMath.java,a/3/a375ad505815bbe5a378ee968de170c03539efd4

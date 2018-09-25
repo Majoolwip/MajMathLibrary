@@ -1,11 +1,12 @@
 
-…"squid:ClassVariableVisibilityCheck"MMake z a static final constant or non-public and provide accessors if needed.(›•Ø¡úÿÿÿÿ8ĞÛËİ,
-Msquid:S1481",Remove this unused "halfCos" local variable.(øÏœéşÿÿÿÿ8÷½»Íİ,
-@squid:S1659"Declare "y" on a separate line.(›•Ø¡úÿÿÿÿ8ĞÛËİ,
-…"squid:ClassVariableVisibilityCheck"MMake x a static final constant or non-public and provide accessors if needed.(›•Ø¡úÿÿÿÿ8ĞÛËİ,
-…"squid:ClassVariableVisibilityCheck"MMake y a static final constant or non-public and provide accessors if needed.(›•Ø¡úÿÿÿÿ8ĞÛËİ,
-Msquid:S1481",Remove this unused "halfSin" local variable.(±ªˆêıÿÿÿÿ8÷½»Íİ,
-Gsquid:S1172"+Remove this unused method parameter "axis".(Õ£”Ú8÷½»Íİ,
-@squid:S1659"Declare "z" on a separate line.(›•Ø¡úÿÿÿÿ8ĞÛËİ,
-…"squid:ClassVariableVisibilityCheck"MMake w a static final constant or non-public and provide accessors if needed.(›•Ø¡úÿÿÿÿ8ĞÛËİ,
-@squid:S1659"Declare "w" on a separate line.(›•Ø¡úÿÿÿÿ8ĞÛËİ,
+‡"squid:ClassVariableVisibilityCheck"MMake z a static final constant or non-public and provide accessors if needed.(›•Ø¡úÿÿÿÿ8”ŸÑà,
+Osquid:S1481",Remove this unused "halfCos" local variable.(øÏœéşÿÿÿÿ8”ŸÑà,
+‡"squid:ClassVariableVisibilityCheck"MMake x a static final constant or non-public and provide accessors if needed.(›•Ø¡úÿÿÿÿ8”ŸÑà,
+‡"squid:ClassVariableVisibilityCheck"MMake w a static final constant or non-public and provide accessors if needed.(›•Ø¡úÿÿÿÿ8”ŸÑà,
+Bsquid:S1659"Declare "z" on a separate line.(›•Ø¡úÿÿÿÿ8”ŸÑà,
+Osquid:S1481",Remove this unused "halfSin" local variable.(±ªˆêıÿÿÿÿ8”ŸÑà,
+Isquid:S1172
+"+Remove this unused method parameter "axis".(Õ£”Ú8”ŸÑà,
+Bsquid:S1659"Declare "w" on a separate line.(›•Ø¡úÿÿÿÿ8”ŸÑà,
+Bsquid:S1659"Declare "y" on a separate line.(›•Ø¡úÿÿÿÿ8”ŸÑà,
+‡"squid:ClassVariableVisibilityCheck"MMake y a static final constant or non-public and provide accessors if needed.(›•Ø¡úÿÿÿÿ8”ŸÑà,
