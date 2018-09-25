@@ -5,6 +5,7 @@ import com.majoolwip.fastmath.Vec2f;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class Vec2Test {
@@ -92,8 +93,34 @@ public class Vec2Test {
 		b.set(1, 0);
 		assertEquals(1, a.dot(b), Defs.EPSILON);
 		assertEquals(1, b.dot(a), Defs.EPSILON);
-		b.set(1, 1);
-		assertEquals(Math.PI / 4d, a.dot(b), Defs.EPSILON);
 	}
 
+	@Test
+	public void equalsTest() {
+		Vec2f a = new Vec2f(1, 1);
+		Vec2f b = new Vec2f(1, 1);
+		assertTrue(a.equals(b));
+		b.set(0,0);
+		assertFalse(a.equals(b));
+	}
+
+	@Test
+	public void toStringTest() {
+		Vec2f a = new Vec2f(1,1);
+		assertEquals("{ " + 1d + " " + 1d + " }", a.toString());
+	}
+
+	@Test
+	public void setTest() {
+		Vec2f a = new Vec2f(5,9);
+		assertEquals(5, a.x(), Defs.EPSILON);
+		assertEquals(9, a.y(), Defs.EPSILON);
+		a.set(10, 18);
+		assertEquals(10, a.x(), Defs.EPSILON);
+		assertEquals(18, a.y(), Defs.EPSILON);
+		Vec2f b = new Vec2f(-1, -5);
+		a.set(b);
+		assertEquals(-1, a.x(), Defs.EPSILON);
+		assertEquals(-5, a.y(), Defs.EPSILON);
+	}
 }
